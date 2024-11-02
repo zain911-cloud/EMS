@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #007bff; /* Bootstrap primary color */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Link styles */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Button styles */
+button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333; /* Darker shade of red */
+}
+
+/* Heading styles */
+h1 {
+  color: #343a40; /* Dark gray for headings */
+}
+
+/* Form styles */
+form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 4px;
+}
+
+form input:focus {
+  border-color: #007bff; /* Focus color for inputs */
+  outline: none;
+}
+
+/* Message styles */
+div.message {
+  margin: 10px 0;
+  color: #28a745; /* Green color for success messages */
+}
+
+div.error {
+  color: #dc3545; /* Red color for error messages */
+}
